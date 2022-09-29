@@ -17,7 +17,8 @@
     ],
     "require": {
         "php": "^7.4|^8.0",
-        "illuminate/support": "^8.0"
+        "illuminate/support": "^8.0",
+        "symfony/panther": "^2.0"
     },
     "require-dev": {
         "orchestra/testbench": "^6.0",
@@ -47,7 +48,7 @@
                 "Mhabib555\\LaravelPanther\\LaravelPantherServiceProvider"
             ],
             "aliases": {
-                "LaravelPanther": "Mhabib555\\LaravelPanther\\LaravelPantherFacade"
+                "LaravelPanther": "Mhabib555\\LaravelPanther\\LaravelPantherFacade",
             }
         }
     }
