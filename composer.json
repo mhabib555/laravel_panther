@@ -1,0 +1,54 @@
+{
+    "name": "mhabib555/laravel_panther",
+    "description": "A laravel wrapper around symfony/panther",
+    "keywords": [
+        "mhabib555",
+        "laravel_panther"
+    ],
+    "homepage": "https://github.com/mhabib555/laravel_panther",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Habib",
+            "email": "mhabib555@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mhabib555\\LaravelPanther\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mhabib555\\LaravelPanther\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mhabib555\\LaravelPanther\\LaravelPantherServiceProvider"
+            ],
+            "aliases": {
+                "LaravelPanther": "Mhabib555\\LaravelPanther\\LaravelPantherFacade"
+            }
+        }
+    }
+}
