@@ -1,4 +1,4 @@
-# Very short description of the package
+# A laravel wrapper around panther
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/mhabib555/laravelpanther.svg?style=flat-square)](https://packagist.org/packages/mhabib555/laravel_panther)
 [![Total Downloads](https://img.shields.io/packagist/dt/mhabib555/laravelpanther.svg?style=flat-square)](https://packagist.org/packages/mhabib555/laravel_panther)
