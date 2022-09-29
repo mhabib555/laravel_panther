@@ -1,11 +1,11 @@
 {
-    "name": "mhabib555/laravel_panther",
+    "name": "mhabib555/laravelpanther",
     "description": "A laravel wrapper around symfony/panther",
     "keywords": [
         "mhabib555",
-        "laravel_panther"
+        "laravelpanther"
     ],
-    "homepage": "https://github.com/mhabib555/laravel_panther",
+    "homepage": "https://github.com/mhabib555/laravelpanther",
     "license": "MIT",
     "type": "library",
     "authors": [
