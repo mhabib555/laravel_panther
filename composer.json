@@ -48,7 +48,7 @@
                 "Mhabib555\\LaravelPanther\\LaravelPantherServiceProvider"
             ],
             "aliases": {
-                "LaravelPanther": "Mhabib555\\LaravelPanther\\LaravelPantherFacade",
+                "LaravelPanther": "Mhabib555\\LaravelPanther\\LaravelPantherFacade"
             }
         }
     }
